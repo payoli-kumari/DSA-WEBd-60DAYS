@@ -1,0 +1,105 @@
+h1{
+    color:rgb(75, 209, 75);
+       text-align: left;
+       text-decoration: underline;
+       width: 300px;
+       height: 200px;
+       background-color: darkgray;
+       border-width: 4px;
+       border-style: dotted;
+       border-color: darkblue;
+       padding-left: 25px;
+       padding-right: 25px;
+       padding-bottom: 25px;
+       padding-top: 35px; 
+    
+}
+
+#Two {
+    color:pink;
+    text-align:left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 20px;
+    text-transform: capitalize;
+    
+}
+
+button{
+    color: blue;
+     background-color: rgb(234, 234, 99);
+} 
+
+
+/* WEBSITE BACKGROUND COLOR CHANGE */
+ body{
+    background-color:white;
+}
+
+/* UNIVERSAL SElECTOR(whole page foreground change to yellow) */
+  /*{
+    color:yellow;
+   } */
+
+/* ELEMENT SELECTOR(ONLY THE PARTICULAR SELECT) */
+   h1{
+    color: coral;
+   }
+
+/* ID SELECTOR(specific id given to a specific heading in htnl file) */
+    #headingOne{
+        color: lightpink;
+    }
+
+    #headingTwo{
+        color:fuchsia;
+    }
+/* CLASS SELECTOR(same line has same id so belongs to same class) */
+   .myclass{
+        color: blueviolet;
+   }
+
+a{
+    color: black;
+    text-decoration: red  wavy underline;
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bolder;
+}
+
+h4{
+    font-weight: bold;
+}
+
+h5{
+    font-weight: lighter;
+}
+
+#one{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 10px;
+    text-transform: lowercase;
+}
+
+#three{
+    text-align: end;
+    line-height: 3px;
+    font-size: 20;
+    text-transform: uppercase;
+}
+
+div{
+    height: 100px;
+    background-color: pink;
+    width: 200px;
+    border: 5px;
+    border-style:double;
+    border-color: brown;
+    text-align: right;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
