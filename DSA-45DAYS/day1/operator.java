@@ -1,6 +1,6 @@
 public class operator {
     public static void main(String[] args) {
-        int p=10;
+        int p=20;
         int q;
       // =
         q=p;
