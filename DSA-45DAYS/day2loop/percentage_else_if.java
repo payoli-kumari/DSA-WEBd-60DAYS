@@ -1,3 +1,4 @@
+//if else if ladder
 import java.util.Scanner;
 public class percentage_else_if{
    public static void main(String[] var0) {

@@ -54,7 +54,7 @@ button{
     #headingTwo{
         color:fuchsia;
     }
-/* CLASS SELECTOR(same line has same id so belongs to same class) */
+/* CLASS SELECTOR(same line has same class name so belongs to same class) */
    .myclass{
         color: blueviolet;
    }
@@ -97,9 +97,57 @@ div{
     background-color: pink;
     width: 200px;
     border: 5px;
-    border-style:double;
+    border-style: hidden;
     border-color: brown;
     text-align: right;
     border-radius: 10px;
     margin-bottom: 50px;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    color: white;
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right: 200px;
+    color: white;
+}
+section{
+    border-style: hidden;
+    border-color: black;
+}
+#hi{
+    background-color: blue;
+    margin: 25px;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    display: inline;
+    opacity: 0.75;
+}
+#hello{
+    background-color: green;
+    margin: 25px;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    display: inline;
+    opacity: 0.50;
+}
+#bye{
+    background-color: yellow;
+    margin: 25px;
+    padding: 25px;
+    height: 100px;
+    width: 100px;
+    display: inline;
+    opacity: 0.40;
 }
