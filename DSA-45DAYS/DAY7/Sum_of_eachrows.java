@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 public class Sum_of_eachrows{
 static void Rowsum(int [][] arr){
     for(int i=0;i<arr.length;i++){
@@ -29,3 +29,28 @@ public static void main(String[] args) {
       Rowsum(arr);
    }
 }
+
+
+/* (Richest customer wealth similar concept)
+class Solution {
+    public int maximumWealth(int[][] accounts) {
+
+        int maxWealth = 0;
+
+        for (int i = 0; i < accounts.length; i++) {
+
+            int sum = 0;
+
+            for (int j = 0; j < accounts[i].length; j++) {
+                sum = sum + accounts[i][j];
+            }
+
+            if (sum > maxWealth) {
+                maxWealth = sum;
+            }
+        }
+
+        return maxWealth;
+    }
+}
+*/
